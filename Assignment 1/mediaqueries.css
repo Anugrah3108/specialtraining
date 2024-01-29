@@ -8,9 +8,10 @@
     }
 
     .left-bar{
-        margin: 0 auto 30px auto;
+        /* margin: 0 auto 30px auto; */
+        margin: 0 10% 30px 10% ;
         padding: 30px;
-        width: 888.667px;
+        /* width: 888.667px; */
         position: static;
     }
 
@@ -33,16 +34,33 @@
     }
 
     .main-content{
-        width: 950px;
-        margin: auto;
+        /* width: 950px; */
+        margin: 0 10% 0 10%;
     }
 
-    .about{
-        width: 950px;
+    .testimony-list{
+        margin: 0 -20px ;
+        padding: 0 20px 0 20px;
+        gap: 16px;
     }
+
+    .testimony-items{
+        width: 50%;
+    }
+/* 
+    .content-card{
+        width: 50%;
+    } */
+
+
     iframe{
-        width: 375px;
+        width: 100%;
     }
+
+    /* .content-card-text > img{
+        width: 100%;
+    } */
+
 
 }
 
@@ -54,9 +72,11 @@
     }
 
     .left-bar{
-        margin: 0 auto 15px auto;
+        /* margin: 0 auto 15px auto; */
+        margin: 0 10% 12px 10% ;
         padding: 15px;
-        width: 444.335px;
+        /* width: 444.335px; */
+        width: auto;
     }
 
     .avatar{
@@ -72,29 +92,10 @@
 
 
     .main-content{
-        width: 475px;
-        margin: auto;
+        margin: 0 10% 0px 10% ;
+        /* width: 475px; */
+       /*  margin: auto; */
         overflow: auto;
-    }
-
-    .about{
-        width: 475px;
-    }
-
-    .service-list{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .testimony-list{
-        flex-direction: column;
-    }
-
-    .content-card-text{
-        height: auto;
-    }
-
-    iframe{
-        height: auto;
     }
 
     .about{
@@ -128,7 +129,7 @@
 
     .service-list{
         gap: 12px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .service-items{
@@ -138,11 +139,13 @@
     }
 
     .service-icon{
-        width: 20px;
-        height: 20px;
+        /* width: 20px;
+        height: 20px; */
+        width: 6.4%;
     }
     .service-info{
-        width: 144.415px;
+        /* width: 144.415px; */
+        width: 100%;
     }
 
     .service-info > h4{
@@ -153,10 +156,11 @@
     }
 
     .testimony-list{
-        margin: 0 -17.5px;
-        padding: 0 15px 0px 15px;
-        flex-direction: row;
-        gap: 15px;
+        margin: 0 -12.5px;
+        padding: 0 12px 0px 12px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
     }
 
     .content-card{
@@ -167,29 +171,27 @@
         margin-bottom: 5px;
     }
 
-    .content-card-text{
-        height: 120px;
-    }
-
-    .content-card-text > img{
-        width: 187.5px;
+    .testimony-items{
+        width: 50%;
     }
 
     iframe{
-        width: 187.5px;
-        height: 120px;
+        width: 100%;
     }
+
 }
 
 @media screen and (max-width: 520px){
     main{
-        margin: 15px 3px;
+        /* margin: 15px 3px; */
+        padding: 0px;
     }
 
     .left-bar{
-        margin: 0 auto 11.25px auto;
+        /* margin: 0 auto 11.25px auto; */
+        margin: 0 10% 6px 10% ;
         padding: 11.25px;
-        width: 333.25px;
+        /* width: 333.25px; */
     }
 
     .avatar{
@@ -209,13 +211,15 @@
     }
 
     .main-content{
-        width: 356.25px;
-        margin: auto;
+        /* width: 356.25px; */
+        margin: 0 10% 0 10% ;
+        /* margin: auto; */
         overflow: auto;
     }
 
     .about{
-        width: 356.25px;
+        /* width: 356.25px; */
+        /* margin: 0 10% 30px 10% ; */
         padding: 11.25px;
     }
 
@@ -258,12 +262,13 @@
     }
 
     .service-icon{
-        width: 15px;
-        height: 15px;
+        width: 15%;
+        /* height: 15px; */
     }
-    .service-info{
-        width: auto;
-    }
+    /* .service-info{
+        width: 70%;
+    } */
+
 
     .service-info > h4{
         margin-bottom: 2.62px;
@@ -276,18 +281,26 @@
     }
 
     .testimony-list{
-        margin: 0 -13.125px;
-        padding: 0 11.25px 0px 11.25px;
-        flex-direction: row;
-        gap: 11.25px;
+        margin: 0 -8.5px;
+        padding: 0 5.25px 0px 5.25px;
+        flex-direction: column;
+        gap: 12px;
     }
 
-    .content-card{
+    .testimony-items{
+        width: 100%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    /* .content-card{
         padding: 9.375px 11.25px 11.25px 11.25px;
     }
 
     .content-card-title{
-        /* font-size: 0.42rem; */
+        font-size: 0.42rem;
         margin-bottom: 3.75px;
     }
 
@@ -303,6 +316,6 @@
     iframe{
         width: 140.625px;
         height: 90px;
-    }
+    } */
 
 }

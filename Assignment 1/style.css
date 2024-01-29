@@ -131,6 +131,7 @@ ul>li{
 
 .contact-info > address{
     font-style: normal;
+    font-size: 0.85rem;
 }
 .social {
     display: flex;
@@ -151,7 +152,7 @@ ul>li{
 .about{
     position: relative;
     color: var(--white);
-    width: 900px;
+    /* width: 900px; */
     border: 1px solid var(--blue);
     box-sizing: border-box;
     border-radius: 20px;
@@ -188,12 +189,25 @@ ul>li{
 .service-list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 16px;
 }
 
 .service-title{
     font-size: 1.5rem;
     margin-bottom: 20px;
+}
+.service-icon{ 
+    width: 40px;
+    height: 40px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+} 
+
+.service-icon > img{
+    width: 100%;
+    height: 100%;
 }
 
 .service-items{
@@ -203,20 +217,16 @@ ul>li{
     background-color:var(--royal-blue);
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 16px;
+    /* flex-wrap: wrap; */
     align-items: flex-start;
 }
 
-.service-icon{ 
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
 .service-info{
-    width: 288.83px;
+    width: 70%; 
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
 }
 
 .service-info > h4{
@@ -245,6 +255,7 @@ ul>li{
     padding: 0 30px 0px 30px;
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     gap: 30px;
     /* justify-content: space-between; */
     
@@ -267,7 +278,7 @@ ul>li{
 
 .content-card-text{
     height: 240px;
-    width: auto;
+    /* width: auto; */
     /* width: 344.33px; */
 }
 
