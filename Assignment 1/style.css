@@ -19,19 +19,16 @@
 }
 
 body{
-    max-height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-color: var(--royal-blue);
-    /* scroll-behavior: smooth; */
 }
 
 main{
     margin: 60px auto;
-    /* padding: 26px; */
+    padding: 26px;
     display: flex;
     flex-direction: row;
     gap: 24px;
-    height: fit-content;
     width: 1200px;
     position: relative;
 }
@@ -153,10 +150,8 @@ ul>li{
 
 .about{
     position: relative;
-    /* margin-left: 320px; */
     color: var(--white);
     width: 900px;
-    /* height: 1260px; */
     border: 1px solid var(--blue);
     box-sizing: border-box;
     border-radius: 20px;
@@ -169,7 +164,6 @@ ul>li{
     
 }
 .header-line{
-    /* margin-top: 20px; */
     margin-bottom: 20px;
     width: 40px;
     height: 5px;
@@ -211,8 +205,6 @@ ul>li{
     flex-direction: row;
     gap: 20px;
     align-items: flex-start;
-    /* justify-content: space-between; */
-
 }
 
 .service-icon{ 
@@ -250,7 +242,7 @@ ul>li{
 
 .testimony-list{
     margin: 0 -35px;
-    padding: 0 30px 35px 30px;
+    padding: 0 30px 0px 30px;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -286,7 +278,7 @@ ul>li{
 
 
 
-.testimony{
+/* .testimony{
     margin-bottom: 30px;
-}
+} */
 

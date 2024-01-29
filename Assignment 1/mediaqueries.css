@@ -11,7 +11,6 @@
         margin: 0 auto 30px auto;
         padding: 30px;
         width: 888.667px;
-        /* height: 180px; */
         position: static;
     }
 
@@ -67,13 +66,9 @@
     }
 
     .avatar-info > h1{
-        /* font-size: 1rem; */
         margin-bottom: 7.5px;
     }
 
-    /* .avatar-info > p{
-        font-size: 0.36rem;
-    } */
 
 
     .main-content{
@@ -107,15 +102,12 @@
     }
 
     .about-title{
-        /* font-size: 1rem; */
         padding-bottom: 7.5px;
     }
 
     .header-line{
         margin-bottom: 10px;
-        /* width: 20px; */
         height: 3px;
-        /* border-radius: 2.5px; */
     }
 
     .about-text{
@@ -123,7 +115,6 @@
     }
 
     .about-text > p{
-        /* font-size: 0.49rem; */
         margin-bottom: 7.5px;
     }
 
@@ -132,7 +123,6 @@
     }
 
     .service-title{
-        /* font-size: 0.75rem; */
         margin-bottom: 10px;
     }
 
@@ -157,24 +147,14 @@
 
     .service-info > h4{
         margin-bottom: 3.5px;
-        /* font-size: 8px; */
     }
-    /* .service-info > p{
-        font-size: 0.475rem;
-    } */
-
-    .testimony{
-        margin-bottom: 15px;
-    }
-
     .testimony-title{
-        /* font-size: 0.75rem; */
         margin-bottom: 10px;
     }
 
     .testimony-list{
         margin: 0 -17.5px;
-        padding: 0 15px 17.5px 15px;
+        padding: 0 15px 0px 15px;
         flex-direction: row;
         gap: 15px;
     }
@@ -184,13 +164,11 @@
     }
 
     .content-card-title{
-        /* font-size: 0.56rem; */
         margin-bottom: 5px;
     }
 
     .content-card-text{
         height: 120px;
-        /* width: ; */
     }
 
     .content-card-text > img{
@@ -248,9 +226,6 @@
 
     .header-line{
         margin-bottom: 5.625px;
-        /* width: 11.25px;
-        height: 1.40px;
-        border-radius: 1.40px; */
     }
 
     .about-text{
@@ -294,13 +269,6 @@
         margin-bottom: 2.62px;
         /* font-size: 0.80rem; */
     }
-    /* .service-info > p{
-        font-size: 0.356rem;
-    } */
-
-    .testimony{
-        margin-bottom: 11.25px;
-    }
 
     .testimony-title{
         font-size: 1.15rem;
@@ -309,7 +277,7 @@
 
     .testimony-list{
         margin: 0 -13.125px;
-        padding: 0 11.25px 13.125px 11.25px;
+        padding: 0 11.25px 0px 11.25px;
         flex-direction: row;
         gap: 11.25px;
     }
