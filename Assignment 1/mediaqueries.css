@@ -1,0 +1,340 @@
+@media screen and (max-width: 1250px){
+    main{
+        flex-direction: column;
+        margin: 60px 12px;
+        width: auto;
+        gap: 0;
+        
+    }
+
+    .left-bar{
+        margin: 0 auto 30px auto;
+        padding: 30px;
+        width: 888.667px;
+        /* height: 180px; */
+        position: static;
+    }
+
+    .side-bar-content{
+        flex-direction: row;
+    }
+
+    .avatar{
+        height: 118px;
+        width: 120px;
+    }
+
+    .side-bar-content-2{
+        display: none;
+    }
+
+    .social{
+        margin: 0;
+        display: none;
+    }
+
+    .main-content{
+        width: 950px;
+        margin: auto;
+    }
+
+    .about{
+        width: 950px;
+    }
+    iframe{
+        width: 375px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    
+    main{
+        margin: 30px 6px;
+        overflow-x: hidden;
+    }
+
+    .left-bar{
+        margin: 0 auto 15px auto;
+        padding: 15px;
+        width: 444.335px;
+    }
+
+    .avatar{
+        width: 75px;
+        height: 73.5px;
+        border-radius: 15px;
+    }
+
+    .avatar-info > h1{
+        /* font-size: 1rem; */
+        margin-bottom: 7.5px;
+    }
+
+    /* .avatar-info > p{
+        font-size: 0.36rem;
+    } */
+
+
+    .main-content{
+        width: 475px;
+        margin: auto;
+        overflow: auto;
+    }
+
+    .about{
+        width: 475px;
+    }
+
+    .service-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimony-list{
+        flex-direction: column;
+    }
+
+    .content-card-text{
+        height: auto;
+    }
+
+    iframe{
+        height: auto;
+    }
+
+    .about{
+        padding: 15px;;
+    }
+
+    .about-title{
+        /* font-size: 1rem; */
+        padding-bottom: 7.5px;
+    }
+
+    .header-line{
+        margin-bottom: 10px;
+        /* width: 20px; */
+        height: 3px;
+        /* border-radius: 2.5px; */
+    }
+
+    .about-text{
+        margin-bottom: 20px;
+    }
+
+    .about-text > p{
+        /* font-size: 0.49rem; */
+        margin-bottom: 7.5px;
+    }
+
+    .services{
+        margin-bottom: 17.5px;
+    }
+
+    .service-title{
+        /* font-size: 0.75rem; */
+        margin-bottom: 10px;
+    }
+
+    .service-list{
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-items{
+        padding: 15px;
+        border-radius: 8px;
+        gap: 10px;
+    }
+
+    .service-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .service-info{
+        width: 144.415px;
+    }
+
+    .service-info > h4{
+        margin-bottom: 3.5px;
+        /* font-size: 8px; */
+    }
+    /* .service-info > p{
+        font-size: 0.475rem;
+    } */
+
+    .testimony{
+        margin-bottom: 15px;
+    }
+
+    .testimony-title{
+        /* font-size: 0.75rem; */
+        margin-bottom: 10px;
+    }
+
+    .testimony-list{
+        margin: 0 -17.5px;
+        padding: 0 15px 17.5px 15px;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .content-card{
+        padding: 12.5px 15px 15px 15px;
+    }
+
+    .content-card-title{
+        /* font-size: 0.56rem; */
+        margin-bottom: 5px;
+    }
+
+    .content-card-text{
+        height: 120px;
+        /* width: ; */
+    }
+
+    .content-card-text > img{
+        width: 187.5px;
+    }
+
+    iframe{
+        width: 187.5px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    main{
+        margin: 15px 3px;
+    }
+
+    .left-bar{
+        margin: 0 auto 11.25px auto;
+        padding: 11.25px;
+        width: 333.25px;
+    }
+
+    .avatar{
+        width: 56.25px;
+        height: 55.125px;
+        border-radius: 11.25px;
+    }
+
+    .avatar-info > h1{
+        font-size: 1rem;
+        margin-bottom: 5.625px;
+    }
+
+    .avatar-info > p{
+        font-size: 0.55rem;
+        padding: 2px 8px;
+    }
+
+    .main-content{
+        width: 356.25px;
+        margin: auto;
+        overflow: auto;
+    }
+
+    .about{
+        width: 356.25px;
+        padding: 11.25px;
+    }
+
+    .about-title{
+        font-size: 1.25rem;
+        padding-bottom: 5.625px;
+    }
+
+    .header-line{
+        margin-bottom: 5.625px;
+        /* width: 11.25px;
+        height: 1.40px;
+        border-radius: 1.40px; */
+    }
+
+    .about-text{
+        margin-bottom: 15px;
+    }
+
+    .about-text > p{
+        /* font-size: 0.36rem; */
+        margin-bottom: 5.625px;
+    }
+
+    .services{
+        margin-bottom: 13.125px;
+    }
+
+    .service-title{
+        font-size: 1.15rem;
+        margin-bottom: 7.5px;
+    }
+
+    .service-list{
+        gap: 9px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-items{
+        padding: 11.25px;
+        border-radius: 6px;
+        gap: 7.5px;
+    }
+
+    .service-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .service-info{
+        width: auto;
+    }
+
+    .service-info > h4{
+        margin-bottom: 2.62px;
+        /* font-size: 0.80rem; */
+    }
+    /* .service-info > p{
+        font-size: 0.356rem;
+    } */
+
+    .testimony{
+        margin-bottom: 11.25px;
+    }
+
+    .testimony-title{
+        font-size: 1.15rem;
+        margin-bottom: 7.5px;
+    }
+
+    .testimony-list{
+        margin: 0 -13.125px;
+        padding: 0 11.25px 13.125px 11.25px;
+        flex-direction: row;
+        gap: 11.25px;
+    }
+
+    .content-card{
+        padding: 9.375px 11.25px 11.25px 11.25px;
+    }
+
+    .content-card-title{
+        /* font-size: 0.42rem; */
+        margin-bottom: 3.75px;
+    }
+
+    .content-card-text{
+        height: 90px;
+    }
+
+    .content-card-text > img{
+        width: 140.625px;
+    }
+
+
+    iframe{
+        width: 140.625px;
+        height: 90px;
+    }
+
+}
