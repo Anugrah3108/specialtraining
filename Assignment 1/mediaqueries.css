@@ -130,8 +130,8 @@
     }
 
     .services{
-        margin-bottom: 17.5px;
-        padding: 0 10px 0 10px;
+        margin-bottom: 20px;
+        padding: 0 10px 10px 10px;
     }
 
     .service-title{
@@ -257,7 +257,8 @@
     }
 
     .services{
-        margin-bottom: 13.125px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
     }
 
     .service-title{
