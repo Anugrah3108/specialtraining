@@ -67,14 +67,14 @@ img{
     height: 100%;
 }
 .avatar-info > h1{
-    font-size: 1.5rem;
+    font-size: 24px;
     color: var(--white);
     margin-bottom: 15px;
 }
 
 .avatar-info > p{
     color: var(--white);
-    font-size: 0.72rem;
+    font-size: 12px;
     border: 1px solid var(--royal-blue); 
     background-color: var(--royal-blue);
     padding: 5px 18px;
@@ -98,7 +98,7 @@ ul>li{
 .icon-box{
     width: 48px;
     height: 48px;
-    font-size: 0.75rem;
+    font-size: 12px;
     border: 1px solid var(--royal-blue); 
     background-color: var(--royal-blue);
     display: flex;
@@ -119,12 +119,12 @@ ul>li{
 }
 
 .contact-title{
-    font-size: 0.75rem;
+    font-size:12px;
     color: var(--light-gray);
 }
 
 .contact-link {
-    font-size: 0.85rem;
+    font-size: 14px;
     color: var(--white); 
     text-decoration: none;
 }
@@ -135,7 +135,7 @@ ul>li{
 
 .contact-info > address{
     font-style: normal;
-    font-size: 0.85rem;
+    font-size: 14px;
 }
 .social {
     display: flex;
@@ -164,7 +164,7 @@ ul>li{
     background-color: var(--blue);   
 }
 .about-title{
-    font-size: 2rem;
+    font-size: 32px;
     padding-bottom: 15px;
     
 }
@@ -179,7 +179,7 @@ ul>li{
 .about-text > p{
     margin-bottom: 15px;
     color: var(--light-gray);
-    font-size: 0.98rem;
+    font-size: 16px;
 }
 
 .about-text > p > b{
@@ -197,7 +197,7 @@ ul>li{
 }
 
 .service-title{
-    font-size: 1.5rem;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 .service-icon{ 
@@ -229,7 +229,7 @@ ul>li{
     margin-bottom: 7px;
 }
 .service-info > p{
-    font-size: 0.95rem;
+    font-size: 16px;
     color: var(--light-gray);
 }
 
@@ -242,7 +242,7 @@ ul>li{
 /* Testimonial Section */
 
 .testimony-title{
-    font-size: 1.5rem;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
@@ -268,7 +268,7 @@ ul>li{
 
 .content-card-title{
     margin-bottom: 10px;
-    font-size: 1.12rem;
+    font-size: 18px;
 }
 
 .content-card-text{
