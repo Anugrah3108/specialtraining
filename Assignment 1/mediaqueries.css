@@ -189,7 +189,7 @@
 
     .left-bar{
         /* margin: 0 auto 11.25px auto; */
-        margin: 0 15% 6px 15% ;
+        margin: 0 5% 6px 5% ;
         padding: 11.25px;
         /* width: 333.25px; */
     }
@@ -212,7 +212,7 @@
 
     .main-content{
         /* width: 356.25px; */
-        margin: 0 15% 0 15% ;
+        margin: 0 5% 0 5% ;
         /* margin: auto; */
         overflow: auto;
     }
