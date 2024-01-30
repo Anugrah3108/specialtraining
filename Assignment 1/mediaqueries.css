@@ -38,6 +38,10 @@
         margin: 0 10% 0 10%;
     }
 
+    .service-icon{
+        width: 10.26%;
+    }
+
     .testimony-list{
         margin: 0 -20px ;
         padding: 0 20px 0 20px;
@@ -74,7 +78,7 @@
     .left-bar{
         /* margin: 0 auto 15px auto; */
         margin: 0 10% 12px 10% ;
-        padding: 15px;
+        padding: 24px;
         /* width: 444.335px; */
         width: auto;
     }
@@ -101,18 +105,24 @@
     .about{
         padding: 15px;;
     }
+    header{
+        padding: 0 10px 7.5px 10px ;
+    }
 
     .about-title{
         padding-bottom: 7.5px;
+        /* padding: 0 10px 7.5px 10px ; */
     }
 
     .header-line{
         margin-bottom: 10px;
+        /* padding: 0 10px 0 10px; */
         height: 3px;
     }
 
     .about-text{
         margin-bottom: 20px;
+        padding: 10px;
     }
 
     .about-text > p{
@@ -121,10 +131,11 @@
 
     .services{
         margin-bottom: 17.5px;
+        padding: 0 10px 0 10px;
     }
 
     .service-title{
-        margin-bottom: 10px;
+        margin: 0 1% 10px 1%;
     }
 
     .service-list{
@@ -133,15 +144,14 @@
     }
 
     .service-items{
+        margin: 3px;
         padding: 15px;
         border-radius: 8px;
         gap: 10px;
     }
 
     .service-icon{
-        /* width: 20px;
-        height: 20px; */
-        width: 6.4%;
+        width: 4.4%;
     }
     .service-info{
         /* width: 144.415px; */
@@ -150,6 +160,10 @@
 
     .service-info > h4{
         margin-bottom: 3.5px;
+    }
+
+    .testimony{
+        padding: 0 10px 0 10px;
     }
     .testimony-title{
         margin-bottom: 10px;
@@ -173,6 +187,7 @@
 
     .testimony-items{
         width: 100%;
+        margin: 3px;
      } 
 
     iframe{
@@ -262,7 +277,7 @@
     }
 
     .service-icon{
-        width: 15%;
+        width: 2.4%;
         /* height: 15px; */
     }
 
