@@ -261,7 +261,6 @@ ul>li{
     flex-direction: row;
     /* flex-wrap: wrap; */
     gap: 30px;
-    /* justify-content: space-between; */
     
 }
 
@@ -290,10 +289,4 @@ ul>li{
     height: 100%;
     /* width: 100%; */
 }
-
-
-
-/* .testimony{
-    margin-bottom: 30px;
-} */
 

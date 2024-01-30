@@ -265,10 +265,6 @@
         width: 15%;
         /* height: 15px; */
     }
-    /* .service-info{
-        width: 70%;
-    } */
-
 
     .service-info > h4{
         margin-bottom: 2.62px;
@@ -302,24 +298,5 @@
     .content-card-text{
         height: 70%;
     }
-/*
-    .content-card-title{
-        font-size: 0.42rem;
-        margin-bottom: 3.75px;
-    }
-
-    .content-card-text{
-        height: 90px;
-    }
-
-    .content-card-text > img{
-        width: 140.625px;
-    }
-
-
-    iframe{
-        width: 140.625px;
-        height: 90px;
-    } */
 
 }
