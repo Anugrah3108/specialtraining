@@ -277,7 +277,8 @@
     }
 
     .service-icon{
-        width: 2.4%;
+        display: none;
+        /* width: 2.4%; */
         /* height: 15px; */
     }
 
