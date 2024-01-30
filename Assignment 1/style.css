@@ -129,6 +129,10 @@ ul>li{
     text-decoration: none;
 }
 
+.contact-info{
+    width: 70%;
+}
+
 .contact-info > address{
     font-style: normal;
     font-size: 0.85rem;
@@ -257,7 +261,6 @@ ul>li{
     flex-direction: row;
     /* flex-wrap: wrap; */
     gap: 30px;
-    /* justify-content: space-between; */
     
 }
 
@@ -286,10 +289,4 @@ ul>li{
     height: 100%;
     /* width: 100%; */
 }
-
-
-
-/* .testimony{
-    margin-bottom: 30px;
-} */
 
