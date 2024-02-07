@@ -1,0 +1,90 @@
+:root{
+    --royal-blue: rgb(22, 40, 54);
+    --blue: rgb(37, 55, 69);
+    --white: rgb(250, 250, 250);
+    --light-gray: rgb(150, 160, 170);
+    --wheat: rgb(255, 247, 236);
+    --gray: rgb(214, 221, 228);
+    --orange: rgb(255, 115, 52);
+    --hr-color: rgba(150, 160, 170, 0.16);
+}
+
+*{
+    transition: all 0.35s ease-in-out;
+}
+
+body{
+    background-color: var(--royal-blue);
+}
+
+.left-bar{
+    background-color: var(--blue);
+}
+
+.avatar{
+    background-color: var(--wheat);
+}
+
+img{
+    width: 100%;
+    /* height: 100%; */
+}
+aside{
+    background-color: var(--blue);
+}
+
+.avatar-info > h1{
+    color: var(--white);
+}
+
+.avatar-info > p{
+    color: var(--white);
+    border: var(--royal-blue); 
+    background-color: var(--royal-blue);
+}
+main {
+    /* overflow: visible; */
+}
+
+ul{
+    list-style: none;
+}
+
+.contact-item-pic{
+    background-color: var(--royal-blue);
+}
+.contact-title{
+    color: var(--light-gray);
+}
+
+.main-content{
+    background-color: var(--blue);
+}
+
+.header-line{
+    border-color: var(--orange) !important;
+}
+
+.about-text > p{
+    color: var(--light-gray);
+}
+
+.about-text > p > b{
+    color: var(--gray);
+}
+
+.service-items{
+    background-color: var(--royal-blue);
+}
+
+.service-info > p{
+    color: var(--light-gray);
+}
+
+.testimony-items{
+    background-color: var(--royal-blue);
+}
+
+.content-card, .content-card-text, iframe{
+    height: 100%;
+}
