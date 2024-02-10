@@ -88,3 +88,6 @@ ul{
 .content-card, .content-card-text, iframe{
     height: 100%;
 }
+iframe{
+    width: 100%;
+}
