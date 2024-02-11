@@ -85,9 +85,16 @@ ul{
     background-color: var(--royal-blue);
 }
 
-.content-card, .content-card-text, iframe{
+.content-card, .content-card-text{
     height: 100%;
 }
-iframe{
-    width: 100%;
+
+.content-card-text > img{
+    height: 82%;
 }
+/* li{
+    height: inherit;
+}
+iframe{
+    height: inherit;
+} */
